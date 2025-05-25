@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contactus - Solar Energy Co.</title>
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contactus.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+<div class="page-bg">
+  <!-- Include header using JS or manually -->
+  <div data-include="header.html"></div>
+
+  <!-- Hero Section -->
+  <section class="contact-hero d-flex align-items-center justify-content-center text-center text-white">
+    <div>
+      <h1 class="animate__animated animate__fadeInDown">Get in Touch</h1>
+      <p class="animate__animated animate__fadeInUp">We’d love to hear from you. Reach out with any questions!</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section container py-5">
+    <div class="row g-5">
+      <!-- Contact Form -->
+      <div class="col-md-7">
+        <h2 class="mb-4 animate__animated animate__fadeInLeft">Send Us a Message</h2>
+        <form class="animate__animated animate__fadeInUp">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning px-4 py-2 fw-bold">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-5 animate__animated animate__fadeInRight">
+        <h2 class="mb-4">Contact Info</h2>
+        <ul class="list-unstyled contact-info">
+          <li class="mb-3"><i class="fas fa-map-marker-alt me-2 text-warning"></i> 123 Solar Street, Sun City, Earth</li>
+          <li class="mb-3"><i class="fas fa-phone-alt me-2 text-warning"></i> +1 (234) 567-8901</li>
+          <li class="mb-3"><i class="fas fa-envelope me-2 text-warning"></i> support@solarenergy.com</li>
+          <li class="mb-3"><i class="fas fa-clock me-2 text-warning"></i> Mon - Fri: 9:00AM - 5:00PM</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Map (optional) -->
+  <section class="map-section">
+    <iframe class="map-embed" src="https://maps.google.com/maps?q=Rajkot,%20Gujarat,%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen loading="lazy"></iframe>
+  </section>
+
+  <!-- Include footer using JS or manually -->
+  <div data-include="footer.html"></div>
+</div>
+ <!-- JS Files -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="js/include.js"></script>
+</body>
+</html>
